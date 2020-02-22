@@ -1,0 +1,81 @@
+.VisionRoot {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+/* matthew-henry-kX9lb7LUDWc-unsplash 1 */
+.VisionBackground{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.VisionTitle{
+    position: absolute;
+    width: 400px;
+    height: 42px;
+    top: 15vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: white;
+}
+
+/* When we are lonely, we want to talk to someone */
+.VisionText1{
+    position: absolute;
+    width: 509px;
+    height: 28px;
+    left: 68vh;
+    top: 40vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+/* It doesn't have to be human */
+.VisionText2{
+    position: absolute;
+    width: 299px;
+    height: 28px;
+    left: 80vh;
+    top: 48vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+/* My vision is to create a dialogue model that can empathize with human */
+.VisionText3{
+    position: absolute;
+    width: 756px;
+    height: 28px;
+    left: 85vh;
+    top: 60vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}

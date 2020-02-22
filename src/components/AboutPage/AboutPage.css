@@ -1,0 +1,41 @@
+.AboutRoot {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+/* matthew-henry-kX9lb7LUDWc-unsplash 1 */
+.AboutBackground{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.ProfileBlock{
+    display: inline;
+}
+
+.ProfileImage {
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    top: 20vh;
+}
+
+.ProfileTitle {
+    position: absolute;
+    width: 200px;
+    height: 30vh;
+    top: 20vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: black;
+}
