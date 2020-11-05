@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.TimelineUpperGrid {
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    justify-content: center;
+}
+
+.TimelineGrid{
+    top: 23vh;
+    left: 3vw;
+}
+
+p {
+    font-size: 20px;
+}
+
+.timeline-item-dateinner{
+    font-size: 20px;
+}
+
+.TimelineTitle {
+    width: 400px;
+    height: 10vh;
+    top: 15vh;
+    
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: black;
+}

@@ -1,0 +1,41 @@
+.TopBarRoot {
+    position: absolute;
+    left: 350px;
+    height: 20vh;
+    width: 100%;
+    background-color: #F44336;
+}
+
+/* NYOUNGWOO LEE */
+.TopBarHostText {
+    position: relative;
+    left: 3vw;
+    top: 12vh;
+    height: 42px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+
+/* Empathy Beyond Intelligence */
+.TopBarVisionText {
+    position: relative;
+    height: 33px;
+    left: 3vw;
+    top: 11vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    opacity: 0.8;
+    
+    color: #FFFFFF;
+}

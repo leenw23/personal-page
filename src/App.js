@@ -2,22 +2,24 @@ import React from 'react';
 import './App.css';
 
 import { NavBar } from "./components/NavBar/NavBar.js";
+import { SideBar } from "./components/SideBar/SideBar.js";
+import { TopBar } from "./components/TopBar/TopBar.js";
 import { LandingPage } from "./components/LandingPage/LandingPage.js";
-import { VisionPage } from "./components/VisionPage/VisionPage.js";
-import { WorkPage } from "./components/WorkPage/WorkPage.js";
 import { AboutPage } from "./components/AboutPage/AboutPage.js";
+import { TimelinePage } from "./components/TimelinePage/TimelinePage.js";
 
 
 function App() {
 
   return (
     <div className="AppRoot">
-      <NavBar />
+      <SideBar />
+      <TopBar />
+      <TimelinePage />
+      {/* <NavBar />
       <LandingPage />
-      <div style={{backgroundColor: '#FFFFFF', height: '20vh'}}></div>
-      <VisionPage />
-      <WorkPage />
-      <AboutPage />
+      <TimelinePage />
+      <AboutPage /> */}
     </div>
   );
 }

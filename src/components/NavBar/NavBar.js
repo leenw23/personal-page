@@ -39,24 +39,14 @@ export function NavBar(props) {
                 <Button>Nyoungwoo</Button>
             </Link>
             <Link   activeClass="active"
-                    to="vision"
+                    to="timeline"
                     spy={true}
                     smooth={true}
                     hashSpy={true}
                     duration={500}
                     isDynamic={true}
             >
-                <Button>Vision</Button>
-            </Link>
-            <Link   activeClass="active"
-                    to="works"
-                    spy={true}
-                    smooth={true}
-                    hashSpy={true}
-                    duration={500}
-                    isDynamic={true}
-            >
-                <Button>Works</Button>
+                <Button>Timeline</Button>
             </Link>
             <Link   activeClass="active"
                     to="about"

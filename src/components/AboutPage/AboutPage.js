@@ -22,6 +22,9 @@ const useStyles = makeStyles(theme => ({
         isplay: "flex",
         flexDirection: "column",
         justifyContent: "center"
+    },
+    typography: {
+        fontFamily: 'Itim'
     }
 }));
 
@@ -43,36 +46,10 @@ export function AboutPage(props) {
                 </Grid>
                 <Grid item xs={2} className={classes.grid}>
                     <ThemeProvider theme={theme}>
-                        <Typography>Empathy beyond Intelligence</Typography>
+                        <Typography>Nyoungwoo Lee</Typography>
                     </ThemeProvider>
-                </Grid>
-                <Grid item xs={4}></Grid>
-                <Grid item xs={6}>
-                    <Paper className={classes.paper}>xs=6</Paper>
-                </Grid>
-                <Grid item xs={6}>
-                    <Paper className={classes.paper}>xs=6</Paper>
-                </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
-                </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
-                </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
-                </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
                 </Grid>
             </Grid>
         </div>
-        // <div id="about" className="AboutRoot">
-        //     <div className="AboutBackground">
-        //         <div className="ProfileBlock">
-        //             <div className="ProfileTitle">Nyoungwoo Lee</div>
-        //         </div>
-        //     </div>
-        // </div>
     );
 }
