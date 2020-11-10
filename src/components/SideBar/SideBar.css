@@ -1,3 +1,12 @@
 .SideBarTitle {
     text-align: center;
 }
+
+.MuiListItemText-root span {
+    font-size: 1.2rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+    color: rgb(0, 59, 92)
+}

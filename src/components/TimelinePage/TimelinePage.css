@@ -8,16 +8,27 @@
 }
 
 .TimelineGrid{
+    position: absolute;
     top: 23vh;
-    left: 3vw;
+    left: 500px;
+}
+
+.timeline{
+    max-width: 50vw;
+}
+
+.timeline-item-date{
+    max-width: 10vw;
+    margin-left: 4vw;
+}
+
+.timeline-item-dateinner{
+    font-size: 18px;
 }
 
 p {
     font-size: 20px;
-}
-
-.timeline-item-dateinner{
-    font-size: 20px;
+    white-space: pre-wrap;
 }
 
 .TimelineTitle {
