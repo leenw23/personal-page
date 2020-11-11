@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 .TimelineUpperGrid {
     display: flex;
@@ -22,8 +24,12 @@
     margin-left: 4vw;
 }
 
-.timeline-item-dateinner{
-    font-size: 18px;
+.dateComponent{
+    margin-right: 30px;
+    float: right;
+    color: #212121;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 p {
@@ -31,12 +37,23 @@ p {
     white-space: pre-wrap;
 }
 
+a:link {
+    color: #4b70fd;
+}
+
+a:hover {
+    color: #311b92;
+}
+
+a:visited { 
+    color: #8c59b9;
+}
+
 .TimelineTitle {
     width: 400px;
     height: 10vh;
     top: 15vh;
     
-    font-family: 'Itim', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;

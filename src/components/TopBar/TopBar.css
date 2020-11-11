@@ -1,22 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .TopBarRoot {
     position: absolute;
     left: 350px;
     height: 20vh;
-    width: 100%;
-    background-color: #F44336;
+    width: calc(100% - 350px);
+    /* background-color: #F44336; */
+    background-image: url(./images/movie_her.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CopyrightText{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    right: 2vw;
+    top: 1vh;
+    font-size: 1.2rem;
 }
 
 /* NYOUNGWOO LEE */
 .TopBarHostText {
-    position: relative;
+    position: absolute;
     left: 3vw;
-    top: 12vh;
+    top: 14vh;
     height: 42px;
     
-    font-family: Roboto;
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2.5rem;
     line-height: 42px;
     
     color: #FFFFFF;
@@ -24,15 +40,15 @@
 
 /* Empathy Beyond Intelligence */
 .TopBarVisionText {
-    position: relative;
+    position: absolute;
     height: 33px;
     left: 3vw;
-    top: 11vh;
+    top: 10vh;
 
-    font-family: Roboto;
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 1.7rem;
     line-height: 33px;
     /* identical to box height */
     opacity: 0.8;

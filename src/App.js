@@ -1,26 +1,25 @@
 import React from 'react';
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 
-// import { NavBar } from "./components/NavBar/NavBar.js";
-// import { LandingPage } from "./components/LandingPage/LandingPage.js";
-// import { AboutPage } from "./components/AboutPage/AboutPage.js";
-import { SideBar } from "./components/SideBar/SideBar.js";
-import { TopBar } from "./components/TopBar/TopBar.js";
-import { TimelinePage } from "./components/TimelinePage/TimelinePage.js";
-
+import { ExperiencePage } from "./pages/ExperiencePage/ExperiencePage.js";
+import { PublicationPage } from "./pages/PublicationPage/PublicationPage.js";
+import { TimelinePage } from "./pages/TimelinePage/TimelinePage";
+import { AboutPage } from "./pages/AboutPage/AboutPage";
 
 function App() {
 
   return (
-    <div className="AppRoot">
-      <SideBar />
-      <TopBar />
-      <TimelinePage />
-      {/* <NavBar />
-      <LandingPage />
-      <TimelinePage />
-      <AboutPage /> */}
-    </div>
+    <Router>
+      <div className="AppRoot">
+          <Switch>
+            <Route exact path="/" component={TimelinePage} />
+            <Route path="/experience/" component={ExperiencePage} />
+            <Route path="/publication/" component={PublicationPage} />
+            <Route path="/about/" component={AboutPage} />
+          </Switch>
+      </div>
+    </Router>
   );
 }
 
