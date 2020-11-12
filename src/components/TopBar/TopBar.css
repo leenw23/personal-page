@@ -3,9 +3,9 @@
 
 .TopBarRoot {
     position: absolute;
-    left: 350px;
-    height: 20vh;
-    width: calc(100% - 350px);
+    left: 250px;
+    height: 160px;
+    width: calc(100% - 250px);
     /* background-color: #F44336; */
     background-image: url(./images/movie_her.jpg);
     background-position: center;
@@ -26,13 +26,13 @@
 .TopBarHostText {
     position: absolute;
     left: 3vw;
-    top: 14vh;
+    top: 100px;
     height: 42px;
     
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     line-height: 42px;
     
     color: #FFFFFF;
@@ -43,12 +43,12 @@
     position: absolute;
     height: 33px;
     left: 3vw;
-    top: 10vh;
+    top: 62px;
 
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     line-height: 33px;
     /* identical to box height */
     opacity: 0.8;

@@ -16,8 +16,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Link } from "react-router-dom"
 
 import './SideBar.css';
+import { useEffect } from 'react'
 
-const drawerWidth = 350;
+const drawerWidth = 250;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,6 +42,11 @@ const useStyles = makeStyles((theme) => ({
 
 export function SideBar(props) {
   const classes = useStyles();
+
+  // Auto Scroll to the top
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className={classes.root}>
